@@ -26,10 +26,6 @@ int main(int argc, char* argv[]) {
 	int s = img.step;
 	int v = img.data[1];
 
-	for (int i = s; i < s; i++) {
-		img.data[i] = 255;
-	}
-
 	cout << "Width and Height : " << w << " , " << h << endl;
 	cout << "Type :" << t << endl;
 	cout << v << endl;
