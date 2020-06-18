@@ -41,6 +41,7 @@ int main(int argc, char* argv[]) {
 	imshow("GrayImage", gr);
 	waitKey(0);
 	img.release();
+	gr.release();
 
 	return 0;
 }
